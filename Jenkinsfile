@@ -1,15 +1,10 @@
 node('master')
-   
  {
-    
-  stage('Cdownload')
-    
- {
-         
-  git 'https://github.com/Suryam2498/MyDevops.git'
-   
- }
-    
+  stage('Cdownload') 
+    {
+       git 'https://github.com/Suryam2498/MyDevops.git'
+    }
+  
    stage('CBulid')
   
   {
